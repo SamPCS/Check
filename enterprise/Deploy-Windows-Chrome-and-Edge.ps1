@@ -21,16 +21,16 @@ $cippServerUrl = "" # This will set the "CIPP Server URL" option in the extensio
 $cippTenantId = "" # This will set the "Tenant ID/Domain" option in the extension settings; default is blank; if you set $enableCippReporting to 1, you must set this to a valid Tenant ID.
 $customRulesUrl = "" # This will set the "Config URL" option in the Detection Configuration settings; default is blank.
 $updateInterval = 24 # This will set the "Update Interval" option in the Detection Configuration settings; default is 24 (hours). Range: 1-168 hours (1 hour to 1 week).
-$urlAllowlist = @() # This will set the "URL Allowlist" option in the Detection Configuration settings; default is blank; if you want to add multiple URLs, add them as a comma-separated list within the brackets (e.g., @("https://example1.com", "https://example2.com")). Supports simple URLs with * wildcard (e.g., https://*.example.com) or advanced regex patterns (e.g., ^https:\/\/(www\.)?example\.com\/.*$).
+$urlAllowlist = @("https://pcsknox.hostedrmm.com:8040*") # This will set the "URL Allowlist" option in the Detection Configuration settings; default is blank; if you want to add multiple URLs, add them as a comma-separated list within the brackets (e.g., @("https://example1.com", "https://example2.com")). Supports simple URLs with * wildcard (e.g., https://*.example.com) or advanced regex patterns (e.g., ^https:\/\/(www\.)?example\.com\/.*$).
 $enableDebugLogging = 0 # 0 = Unchecked, 1 = Checked (Enabled); default is 0; This will set the "Enable Debug Logging" option in the Activity Log settings.
 
 # Custom Branding Settings
-$companyName = "CyberDrain" # This will set the "Company Name" option in the Custom Branding settings; default is "CyberDrain".
-$companyURL = "https://cyberdrain.com" # This will set the Company URL option in the Custom Branding settings; default is "https://cyberdrain.com"; Must include the protocol (e.g., https://).
+$companyName = "PCS Inc" # This will set the "Company Name" option in the Custom Branding settings; default is "CyberDrain".
+$companyURL = "https://www.pcsknox.com" # This will set the Company URL option in the Custom Branding settings; default is "https://cyberdrain.com"; Must include the protocol (e.g., https://).
 $productName = "Check - Phishing Protection" # This will set the "Product Name" option in the Custom Branding settings; default is "Check - Phishing Protection".
-$supportEmail = "" # This will set the "Support Email" option in the Custom Branding settings; default is blank.
-$primaryColor = "#F77F00" # This will set the "Primary Color" option in the Custom Branding settings; default is "#F77F00"; must be a valid hex color code (e.g., #FFFFFF).
-$logoUrl = "" # This will set the "Logo URL" option in the Custom Branding settings; default is blank. Must be a valid URL including the protocol (e.g., https://example.com/logo.png); protocol must be https; recommended size is 48x48 pixels with a maximum of 128x128.
+$supportEmail = "support@pcsknox.com" # This will set the "Support Email" option in the Custom Branding settings; default is blank.
+$primaryColor = "#009bdf" # This will set the "Primary Color" option in the Custom Branding settings; default is "#F77F00"; must be a valid hex color code (e.g., #FFFFFF).
+$logoUrl = "https://www.pcsknox.com/wp-content/uploads/PCS-Logo-Color-Reversed.png" # This will set the "Logo URL" option in the Custom Branding settings; default is blank. Must be a valid URL including the protocol (e.g., https://example.com/logo.png); protocol must be https; recommended size is 48x48 pixels with a maximum of 128x128.
 
 # Extension Settings
 # These settings control how the extension is installed and what permissions it has. It is recommended to leave these at their default values unless you have a specific need to change them.
