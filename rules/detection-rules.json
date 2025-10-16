@@ -52,7 +52,8 @@
       "^https://[^/]*\\.pcsknox\\.com(/.*)?$",
       "^https://[^/]*\\.pcsknox.hostedrmm\\.com(/.*)?$",
       "^https://[^/]*\\.dynamics\\.com(/.*)?$",
-      "^https://(?:[^/]*\\.)?zoom\\.us(/.*)?$"
+      "^https://(?:[^/]*\\.)?zoom\\.us(/.*)?$",
+      "^https://[^/]*\\.training\\.extremenetworks\\.com(/.*)?$"
     ],
     "context_indicators": {
       "description": "Additional context that indicates legitimate discussion vs phishing",
