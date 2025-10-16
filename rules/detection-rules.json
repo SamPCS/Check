@@ -50,7 +50,8 @@
       "^https://[^/]*\\.(youtube|youtu)\\.be(/.*)?$",
       "^https://[^/]*\\.apple\\.com(/.*)?$",
       "^https://[^/]*\\.pcsknox\\.com(/.*)?$",
-      "^https://[^/]*\\.pcsknox.hostedrmm\\.com(/.*)?$",
+      "^https://[^/]*\\.pcsknox\\.hostedrmm\\.com(/.*)?$",
+      "^https://[^/]*\\.pcsknox\\.hostedrmm\\.com:8040(/.*)?$",
       "^https://[^/]*\\.dynamics\\.com(/.*)?$",
       "^https://(?:[^/]*\\.)?zoom\\.us(/.*)?$",
       "^https://[^/]*\\.training\\.extremenetworks\\.com(/.*)?$"
