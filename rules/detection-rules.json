@@ -54,7 +54,8 @@
       "^https://[^/]*\\.pcsknox\\.hostedrmm\\.com:8040(/.*)?$",
       "^https://[^/]*\\.dynamics\\.com(/.*)?$",
       "^https://(?:[^/]*\\.)?zoom\\.us(/.*)?$",
-      "^https://[^/]*\\.training\\.extremenetworks\\.com(/.*)?$"
+      "^https://[^/]*\\.training\\.extremenetworks\\.com(/.*)?$",
+      "^https://[^/]*\\.att\\.com\\.outages(/.*)?$"
     ],
     "context_indicators": {
       "description": "Additional context that indicates legitimate discussion vs phishing",
